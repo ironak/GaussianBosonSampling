@@ -23,7 +23,7 @@ After running the third command, you will be provided with a link to follow. Cop
 
 ## Adding dependencies
 
-If you need to install a new package to add new functionality to the codebase, you'll want to update environment.yaml so future users of this code will automatically install that package when they create the arl-gbs conda environment. 
+If you need to install a new package to add new functionality to the codebase, you'll want to update `environment.yml` so future users of this code will automatically install that package when they create the arl-gbs conda environment. 
 
 To do this, after modifying the environment as necessary, you can run the command:
 ```
