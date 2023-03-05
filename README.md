@@ -24,3 +24,9 @@ After running the third command, you will be provided with a link to follow. Cop
 ## Adding dependencies
 
 If you need to install a new package to add new functionality to the codebase, you'll want to update environment.yaml so future users of this code will automatically install that package when they create the arl-gbs conda environment. 
+
+To do this, after modifying the environment as necessary, you can run the command:
+```
+conda env export > environment.yml
+```
+After this, the `environment.yml` file will contain all the new conda and pip packages. It's a good idea to delete the last line of this file before commiting, because it contains a prefix path that is only relevant on your personal machine.
